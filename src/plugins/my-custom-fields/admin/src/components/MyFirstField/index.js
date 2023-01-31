@@ -44,23 +44,24 @@ const Field = (props) => {
   }
 
   return (
-    <Main>
+    <Main style={{width: 600}}>
         <TextInput
-        id={name}
-        placeholder={placeholder}
-        label={label || name}
-        name={name}
-        hint={hint}
-        onChange={e => {
-            const arg = {
-            target: {
-                name,
-                value: e.target.value,
-            },
-            }
-            onChange(arg);
-        }}
-        value={value}
+            id={name}
+            placeholder={placeholder}
+            label={label || name}
+            name={name}
+            hint={hint}
+            onChange={e => {
+                const arg = {
+                target: {
+                    name,
+                    value: e.target.value,
+                },
+                }
+                onChange(arg);
+            }}
+            fullWidth
+            value={value}
         />
         <Button
             variant='secondary'
