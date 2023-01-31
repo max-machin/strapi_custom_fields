@@ -1855,7 +1855,7 @@
     semver "7.3.8"
     umzug "3.1.1"
 
-"@strapi/design-system@1.6.1":
+"@strapi/design-system@1.6.1", "@strapi/design-system@^1.6.1":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@strapi/design-system/-/design-system-1.6.1.tgz#cb24b7cb9c22042a49d7314c9e4cf366a390ae6d"
   integrity sha512-uOl2vWejoKZVQCHj8PH2sfWiDgmk6uAoCC9FSczjX0RJEF8AiLIrWND7cnlfGoVO+0XrJBSDUL+SxFHqKK+GlA==
