@@ -12,7 +12,10 @@
   },
   "attributes": {
     "titre": {
-      "type": "text"
+      "type": "text",
+      "customFieldConfig": {
+        "fieldRenderer": "my_custom_field_renderer"
+      }
     },
     "location": {
       "type": "json"
